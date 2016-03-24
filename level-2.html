@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+
+    <title>SH Test II</title>
+    <link rel="shortcut icon" href="http://www.steelhouse.com/favicon.png" />
+
+    <link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+
+    <style>
+
+      .container {
+        position: relative;
+        width: 300px;
+        height: 600px;
+        border: 1px solid #000;
+        margin: 20px;
+      }
+
+      .thumbsUp {
+        background: url('http://cdn1.steelhousemedia.com/files/docs/SteelHouse/20150407/thumbsUp_200.png');
+        width: 191px;
+        height: 200px;
+      }
+      
+      .fadeIn {
+
+      }
+
+      #sprite {
+        
+      }
+
+      #sprite:hover {
+
+      }
+
+
+
+    </style>
+  </head>
+  <body>
+
+    <!-- Use the provided assets and markup to finish the ad. Get creative. -->
+      <!-- Logo      - http://cdn1.steelhousemedia.com/files/docs/SteelHouse/20150407/SteelHouse-Logo.png (216 x 72) -->
+      <!-- Sprite    - http://cdn1.steelhousemedia.com/files/docs/SteelHouse/20150407/sprite.jpg (200 x 100)  -->
+      <!-- Content   - http://cdn1.steelhousemedia.com/files/docs/SteelHouse/20150407/thumbsUp_200.png (191 x 200) -->
+      <!-- Web Font  - Lato -->
+
+    <!-- 1. Style the logo, h2 tag, h4 tag and p tag -->
+    <!-- 2. Use the #sprite selector to add a button to the bottom of the ad -->
+    <!-- 3. Take a look at the short script below. Use this event handler and CSS3 to fade in thumbsUp_200.png over 2 seconds. -->
+
+    <!-- Feel free to go back and adjust the rest of the ad to fit your style.   -->
+
+
+    <div class="container">
+      <img src="http://cdn1.steelhousemedia.com/files/docs/SteelHouse/20150407/SteelHouse-Logo.png">
+      <h2>Bacon ipsum!</h2>
+      <h4>Corned beef hamburger.</h4>
+      <div class="thumbsUp"></div>
+      <p>Bresaola bacon prosciutto jerky. Shank salami bresaola pork loin drumstick alcatra cupim tongue.</p>
+
+
+    </div>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script>
+      $('#sprite').click(function() {
+        $('.thumbsUp').addClass('fadeIn');
+      });
+    </script>
+  </body>
+</html>
