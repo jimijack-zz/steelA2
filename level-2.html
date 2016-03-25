@@ -30,11 +30,22 @@
       }
 
       #sprite {
-
+        background-color: white;
+        border: 1px solid #454545;
+        color: #454545;
+        border-radius: 10px;
+        font-family: Avenir;
+        font-size: 20px;
+        text-transform: uppercase;
+        padding: 15px;
+        transition: background-color 1s, transform 1s;
       }
 
       #sprite:hover {
-
+        background-color: #454545;
+        border: 1px solid #454545;
+        color: white;
+        transform: rotate(360deg);
       }
 
 
@@ -62,7 +73,8 @@
       <h4>Corned beef hamburger.</h4>
       <div class="thumbsUp"></div>
       <p>Bresaola bacon prosciutto jerky. Shank salami bresaola pork loin drumstick alcatra cupim tongue.</p>
-
+      <hr>
+      <button id="sprite" style="position: absolute; left: 73px; bottom: 10px">Thumbs Up?</button>
 
     </div>
 
