@@ -16,6 +16,7 @@
         width: 300px;
         height: 600px;
         border: 1px solid #000;
+        box-shadow: 1px 1px 20px 10px #454545 inset;
         margin: 20px;
       }
 
@@ -32,7 +33,7 @@
         -webkit-opacity: 1;
         -moz-opacity: 1;
         opacity: 1;
-        margin-left: 50px;
+        margin-left: 55px;
         -webkit-transition: all 2s ease;
         -moz-transition: all 2s ease;
         -ms-transition: all 2s ease;
@@ -41,21 +42,15 @@
       }
 
       #sprite {
-        background-color: white;
+        background: url(https://i.imgur.com/ku3P3tZ.jpg) no-repeat center center;
         border: 1px solid #454545;
-        color: #454545;
         border-radius: 10px;
-        font-family: Avenir;
-        font-size: 20px;
-        text-transform: uppercase;
-        padding: 15px;
-        transition: background-color 1s, transform 1s;
+        transition: background 1s, transform 1s;
       }
 
       #sprite:hover {
-        background-color: #454545;
+        background: url(https://i.imgur.com/P9abUUp.jpg) no-repeat center center;
         border: 1px solid #454545;
-        color: white;
         transform: rotate(180deg) scaleY(-1) scaleX(-1);
       }
 
@@ -79,13 +74,13 @@
 
 
     <div class="container">
-      <img src="http://cdn1.steelhousemedia.com/files/docs/SteelHouse/20150407/SteelHouse-Logo.png">
+      <img src="http://cdn1.steelhousemedia.com/files/docs/SteelHouse/20150407/SteelHouse-Logo.png" style="position: relative; left: 40px; top: 10px">
       <h2>Bacon ipsum!</h2>
       <h4>Corned beef hamburger.</h4>
       <div class="thumbsUp"></div>
       <p>Bresaola bacon prosciutto jerky. Shank salami bresaola pork loin drumstick alcatra cupim tongue.</p>
       <hr>
-      <button id="sprite" style="position: absolute; left: 73px; bottom: 10px">Thumbs Up?</button>
+      <button id="sprite" style="position: absolute; left: 50px; bottom: 35px; width: 200px; height: 50px"></button>
 
     </div>
 
